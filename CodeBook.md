@@ -55,7 +55,7 @@ Train data 2
       
       -Code column in BeautifulData is replaced with activity in activities variable 
       
--**Label the data with descriptive variable names 
+-**Label the data with descriptive variable names**
 
       -Code column in BeautifulData renamed into activity 
       
@@ -76,5 +76,3 @@ Train data 2
       -FinalData (180 rows, 88 columns) summarizes BeautifulData by taking mean of each acitivity and subject 
       
       -Export 'FinalData' into 'FinalData.txt' file
-  
-      -
