@@ -55,7 +55,7 @@ Train data 2
       
       -Code column in BeautifulData is replaced with activity in activities variable 
       
--**Label the data with descriptive variable names**
+- **Label the data with descriptive variable names**
 
       -Code column in BeautifulData renamed into activity 
       
@@ -71,7 +71,7 @@ Train data 2
       
       -All '^t' characters in column name is 'time'
       
--**Second, indepdent data set made with average of each variable for each activity and each subject**
+- **Second, indepdent data set made with average of each variable for each activity and each subject**
 
       -FinalData (180 rows, 88 columns) summarizes BeautifulData by taking mean of each acitivity and subject 
       
