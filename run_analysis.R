@@ -57,3 +57,4 @@ FinalData <- BeautifulData %>%  #create new data set with all the above labelled
   summarise_all(funs(mean))
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
 
+#type FinalData to see table that is made...
