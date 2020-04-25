@@ -10,4 +10,4 @@ This is the final project for getting and cleaning data.  This submission is don
   - Uses descriptive activity names to name the activities in the data set
   - Appropriately labels the data set with descriptive variable names 
   - Create independent tidy data set with the average of each variable for each activity and each subject
-- **ModifiedData.txt** The modified data will be exported and provided for visualization. 
+- **FinalData.txt** The modified data will be exported and provided for visualization. 
