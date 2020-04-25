@@ -1,10 +1,11 @@
 #download the dataset and load packages
-library(dplyr) #load necessary file
+library(dplyr) #load necessary package
 filename <- "Coursera_DS3_Final.zip"
 if (!file.exists(filename)){ #if file don't exist, add it
   fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(fileURL, filename, method="curl")
 }
+
 if (!file.exists("UCI HAR Dataset")) { #if dataset don't exist, add it
 unzip(filename)
 }
@@ -56,5 +57,3 @@ FinalData <- BeautifulData %>%  #create new data set with all the above labelled
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
-
-#type FinalData to see table that is made...
