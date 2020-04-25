@@ -9,7 +9,7 @@ The R script, run_analysis.R, will perform data preparation and do the 5 steps a
     
 Data in features come from accelerometer and gyroscope 3-acial raw signals tAcc-XYZ and tGyro-XYZ.
      
-        activ <- activity_labels.txt : 6 rows, 2 columns 
+        activity <- activity_labels.txt : 6 rows, 2 columns 
     
 Activities performed when measurments taken in the form of a list. 
     
@@ -73,8 +73,8 @@ Train data 2
       
 -**Second, indepdent data set made with average of each variable for each activity and each subject**
 
-      -CompleteData (180 rows, 88 columns) summarizes BeautifulData by taking mean of each acitivity and subject 
+      -FinalData (180 rows, 88 columns) summarizes BeautifulData by taking mean of each acitivity and subject 
       
-      -Export 'CompleteData' into 'CompleteData.txt' file
+      -Export 'FinalData' into 'FinalData.txt' file
   
       -
